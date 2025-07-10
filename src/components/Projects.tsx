@@ -24,39 +24,30 @@ const Projects = () => {
       category: "AI/ML"
     },
     {
-      title: "Blockchain Voting System",
-      description: "Decentralized voting platform ensuring transparency and security. Built with Solidity smart contracts and Web3 integration.",
-      tech: ["Solidity", "Web3.js", "React", "Ethereum"],
-      image: "🗳️",
+      title: "QR Code Generator & Scanner",
+      description: "Dynamic QR code generator and scanner application with customizable designs. Features batch generation, analytics tracking, and various export formats.",
+      tech: ["React", "Node.js", "qrcode.js", "jimp", "MongoDB"],
+      image: "📱",
       github: "#",
       live: "#",
-      category: "Blockchain"
-    },
-    {
-      title: "Cybersecurity Dashboard",
-      description: "Network monitoring and threat detection dashboard. Real-time visualization of security metrics and automated alert system.",
-      tech: ["Python", "Flask", "D3.js", "SQLite"],
-      image: "🔒",
-      github: "#",
-      live: "#",
-      category: "Security"
+      category: "Utility"
     }
   ];
 
   return (
     <section id="projects" className="py-20 bg-background">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             Featured Projects
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A showcase of my work spanning web development, computer vision, blockchain, 
-            and cybersecurity. Each project represents a learning journey and technical challenge.
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto px-4 sm:px-0">
+            A showcase of my work spanning web development, computer vision, and utility applications. 
+            Each project represents a learning journey and technical challenge.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-12">
           {projects.map((project, index) => (
             <Card 
               key={project.title}

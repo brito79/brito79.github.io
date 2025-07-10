@@ -45,20 +45,20 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-slide-up">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            Hello, I'm Alex
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+            Hello, I'm Brian Shayamano
           </h1>
           
-          <div className="text-xl md:text-2xl text-muted-foreground mb-8 h-8">
+          <div className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 h-8">
             <span className="border-r-2 border-accent animate-pulse">{text}</span>
           </div>
           
-          <p className="text-lg text-foreground/80 mb-12 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg text-foreground/80 mb-8 sm:mb-12 max-w-2xl mx-auto leading-relaxed px-4 sm:px-0">
             ALX Alumni passionate about building innovative solutions with modern technologies. 
             Specialized in full-stack development with interests in blockchain, computer vision, and cybersecurity.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 sm:mb-16 px-4 sm:px-0">
             <Button 
               size="lg" 
               className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-primary-foreground font-semibold"

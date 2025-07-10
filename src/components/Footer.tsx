@@ -27,8 +27,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="font-bold text-xl mb-4 bg-gradient-primary bg-clip-text text-transparent">
-              Alex.dev
+            <h3 className="font-bold text-lg sm:text-xl mb-4 bg-gradient-primary bg-clip-text text-transparent">
+              Brian.dev
             </h3>
             <p className="text-muted-foreground">
               Computer Science Student & Tech Enthusiast passionate about building 
@@ -79,7 +79,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row items-center justify-between">
           <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-            © {currentYear} Alex.dev. All rights reserved.
+            © {currentYear} Brian.dev. All rights reserved.
           </p>
           <div className="flex items-center text-muted-foreground text-sm">
             <span>Made with</span>

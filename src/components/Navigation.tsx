@@ -44,8 +44,8 @@ const Navigation = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="font-bold text-xl bg-gradient-primary bg-clip-text text-transparent">
-            Alex.dev
+          <div className="font-bold text-lg sm:text-xl bg-gradient-primary bg-clip-text text-transparent">
+            Brian.dev
           </div>
 
           {/* Desktop Navigation */}

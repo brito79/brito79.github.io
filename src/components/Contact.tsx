@@ -10,8 +10,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "alex@example.com",
-      href: "mailto:alex@example.com"
+      value: "brian@example.com",
+      href: "mailto:brian@example.com"
     },
     {
       icon: Phone,
@@ -50,12 +50,12 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20 bg-muted/5">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             Get In Touch
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto px-4 sm:px-0">
             I'm always open to discussing new opportunities, collaborations, or just having 
             a conversation about technology. Feel free to reach out!
           </p>
